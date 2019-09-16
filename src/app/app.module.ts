@@ -8,13 +8,16 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { SpinnerComponent } from './shared/spinner/spinner.component';
 
+import { DashboardComponent } from './sidebar/sidebar-ui/dashboard/dashboard.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     NavbarComponent,
     SidebarComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
